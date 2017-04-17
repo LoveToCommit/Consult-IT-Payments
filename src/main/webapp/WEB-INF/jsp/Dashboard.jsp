@@ -18,13 +18,8 @@
 
 		<h2>Welcome to Consult-IT Financial</h2>
 		
+
 	
-			<div class="row">
-         <span id="headerlogin" style="float:right;">Logged in: <span class="username" title="">Sunil
-         <b><c:out value="${pageContext.request.remoteUser}"></c:out>
-         </span></span>
-     </div>
-			
 
 				<form action="/logout" method="post">
 				
@@ -35,7 +30,11 @@
 		
 
 	</div>
-	
+	<div  >
+         <span id="headerlogin" style="float:right;">Logged in: <span class="username" title="">Sunil
+         <b><c:out value="${pageContext.request.remoteUser}"></c:out>
+         </span></span>
+     </div>
 	<div class="topcorner" style='float: right;'>
 
 		<div class="details">

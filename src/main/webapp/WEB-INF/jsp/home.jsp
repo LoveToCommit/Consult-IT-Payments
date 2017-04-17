@@ -15,7 +15,7 @@
 	<div class="lcHome">
 		<h1>Welcome!</h1>
 		<div class="alert-normal">
-			Click <a href="<spring:url value='/hello' />">here</a> to see a
+			Click <a href="<spring:url value='/Dashboard' />">here</a> to see a
 			greeting.
 		</div>
 	</div>
